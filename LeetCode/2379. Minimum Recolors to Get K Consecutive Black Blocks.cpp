@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int minimumRecolors(string blocks, int k) {
         int count = 0, flag = 0;
         for (int i = 0; i < blocks.size(); ++i) {

@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     string reverseWords(string s) {
         for (int i = 0; i < s.length();) {
             int j = i, c = 0;

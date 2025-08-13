@@ -1,6 +1,6 @@
 class Solution {
-public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+  public:
+    vector<int> spiralOrder(vector<vector<int>> &matrix) {
         vector<int> answer;
         int row = matrix.size();
         int column = matrix[0].size();

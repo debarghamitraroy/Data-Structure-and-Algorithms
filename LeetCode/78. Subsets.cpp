@@ -1,6 +1,7 @@
 class Solution {
-private:
-    void subsetGenerator(vector<int> nums, int n, vector<vector<int>>& ans, int i, vector<int> subset) {
+  private:
+    void subsetGenerator(vector<int> nums, int n, vector<vector<int>> &ans,
+                         int i, vector<int> subset) {
         if (i >= n) {
             ans.push_back(subset);
             return;
@@ -11,8 +12,8 @@ private:
         subsetGenerator(nums, n, ans, i + 1, subset);
     }
 
-public:
-    vector<vector<int>> subsets(vector<int>& nums) {
+  public:
+    vector<vector<int>> subsets(vector<int> &nums) {
         int i = 0;
         int n = nums.size();
         vector<int> subset;

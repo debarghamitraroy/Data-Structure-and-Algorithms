@@ -1,6 +1,6 @@
 class Solution {
-public:
-    int numIdenticalPairs(vector<int>& nums) {
+  public:
+    int numIdenticalPairs(vector<int> &nums) {
         size_t length = nums.size();
         int count = 0;
         for (int i = 0; i < length; i++) {

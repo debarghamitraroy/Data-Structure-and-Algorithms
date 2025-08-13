@@ -1,5 +1,5 @@
 class Solution {
-private:
+  private:
     bool checkEqual(int a[26], int b[26]) {
         for (int i = 0; i < 26; i++) {
             if (a[i] != b[i])
@@ -8,7 +8,7 @@ private:
         return true;
     }
 
-public:
+  public:
     bool checkInclusion(string s1, string s2) {
         int count1[26] = {0};
         for (int i = 0; i < s1.size(); i++) {

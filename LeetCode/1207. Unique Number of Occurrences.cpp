@@ -1,6 +1,6 @@
 class Solution {
-public:
-    bool uniqueOccurrences(vector<int>& arr) {
+  public:
+    bool uniqueOccurrences(vector<int> &arr) {
         sort(arr.begin(), arr.end());
         map<int, int> mpp;
         for (int i = 0; i < arr.size(); i++) {

@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     string largestPalindromic(string s) {
         vector<int> v(10);
         for (char ch : s) {

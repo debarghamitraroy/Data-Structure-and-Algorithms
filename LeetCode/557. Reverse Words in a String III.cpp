@@ -1,12 +1,12 @@
 class Solution {
-private:
-    void swap(char* a, char* b) {
+  private:
+    void swap(char *a, char *b) {
         char temp = *a;
         *a = *b;
         *b = temp;
     }
 
-    void reverse(string& s, int start, int end) {
+    void reverse(string &s, int start, int end) {
         while (start < end) {
             swap(&s[start], &s[end]);
             start++;
@@ -14,7 +14,7 @@ private:
         }
     }
 
-public:
+  public:
     string reverseWords(string s) {
         int j = 0, n = s.size() - 1;
         for (int i = 0; i < n + 1; i++) {

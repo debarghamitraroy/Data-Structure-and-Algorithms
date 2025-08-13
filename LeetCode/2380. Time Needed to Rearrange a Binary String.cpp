@@ -1,12 +1,12 @@
 class Solution {
-private:
-    void swap(char* a, char* b) {
+  private:
+    void swap(char *a, char *b) {
         char temp = *a;
         *a = *b;
         *b = temp;
     }
 
-public:
+  public:
     int secondsToRemoveOccurrences(string s) {
         int count = 0;
         while (true) {

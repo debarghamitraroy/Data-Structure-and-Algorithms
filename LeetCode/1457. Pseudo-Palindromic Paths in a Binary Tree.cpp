@@ -11,13 +11,13 @@
  * };
  */
 class Solution {
-public:
-    int pseudoPalindromicPaths(TreeNode* root) {
+  public:
+    int pseudoPalindromicPaths(TreeNode *root) {
         if (!root)
             return 0;
         count ^= (1 << root->val);
-        int ans = pseudoPalindromicPaths(root->left, count) +
-                  pseudoPalindromicPaths(root->right, count);
+        int ans = pseudoPalindromicPaths(root->left, count)
+                  + pseudoPalindromicPaths(root->right, count);
         if (!root->left && !root->right && (count & (count - 1)) == 0)
             ans++;
         return ans;

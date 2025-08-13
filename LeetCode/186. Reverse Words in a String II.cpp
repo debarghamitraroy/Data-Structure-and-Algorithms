@@ -1,6 +1,6 @@
 class Solution {
-public:
-    void reverseWords(vector<char>& s) {
+  public:
+    void reverseWords(vector<char> &s) {
         reverse(s.begin(), s.end());
         int j = 0, n = s.size();
         for (int i = 0; i < n; i++) {

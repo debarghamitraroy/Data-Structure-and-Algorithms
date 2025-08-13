@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int reverse(int x) {
         int ans = 0, digit;
         while (x != 0) {

@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     vector<long long int> maximumEvenSplit(long long int finalSum) {
         vector<long long int> temp;
         if (finalSum % 2 == 0) {

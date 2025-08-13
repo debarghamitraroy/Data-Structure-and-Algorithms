@@ -1,6 +1,6 @@
 class Solution {
-public:
-    int compress(vector<char>& chars) {
+  public:
+    int compress(vector<char> &chars) {
         int i = 0, ansIndex = 0, n = chars.size();
         while (i < n) {
             int j = i + 1;

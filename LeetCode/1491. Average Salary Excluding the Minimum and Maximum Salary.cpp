@@ -1,6 +1,6 @@
 class Solution {
-public:
-    double average(vector<int>& salary) {
+  public:
+    double average(vector<int> &salary) {
         sort(salary.begin(), salary.end());
         salary.pop_back();
         reverse(salary.begin(), salary.end());

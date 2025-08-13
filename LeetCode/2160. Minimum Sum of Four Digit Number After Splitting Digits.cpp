@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int minimumSum(int num) {
         vector<int> v;
         while (num > 0) {

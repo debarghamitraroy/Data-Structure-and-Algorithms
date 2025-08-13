@@ -1,6 +1,7 @@
 class Solution {
-private:
-    void subsetGenerator(vector<int>& nums, vector<vector<int>>& ans, int index, vector<int>& subset) {
+  private:
+    void subsetGenerator(vector<int> &nums, vector<vector<int>> &ans, int index,
+                         vector<int> &subset) {
         ans.push_back(subset);
         for (int i = index; i < nums.size(); i++) {
             if (i != index && nums[i] == nums[i - 1])
@@ -11,8 +12,8 @@ private:
         }
     }
 
-public:
-    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+  public:
+    vector<vector<int>> subsetsWithDup(vector<int> &nums) {
         vector<int> subset;
         vector<vector<int>> ans;
         sort(nums.begin(), nums.end());

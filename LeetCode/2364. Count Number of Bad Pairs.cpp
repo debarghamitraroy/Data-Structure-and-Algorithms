@@ -1,6 +1,6 @@
 class Solution {
-public:
-    long long countBadPairs(vector<int>& nums) {
+  public:
+    long long countBadPairs(vector<int> &nums) {
         unordered_map<int, long long int> mpp;
         for (int i = 0; i < nums.size(); i++) {
             mpp[nums[i] - i]++;

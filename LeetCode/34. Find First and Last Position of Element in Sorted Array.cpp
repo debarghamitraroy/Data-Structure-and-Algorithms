@@ -1,6 +1,6 @@
 class Solution {
-private:
-    int firstOccurrance(vector<int>& arr, int key) {
+  private:
+    int firstOccurrance(vector<int> &arr, int key) {
         int size = arr.size(), start = 0, end = size - 1, ans = -1;
         while (start <= end) {
             int mid = start + ((end - start) / 2);
@@ -17,7 +17,7 @@ private:
         return ans;
     }
 
-    int lastOccurrance(vector<int>& arr, int key) {
+    int lastOccurrance(vector<int> &arr, int key) {
         int size = arr.size(), start = 0, end = size - 1, ans = -1;
         while (start <= end) {
             int mid = start + ((end - start) / 2);
@@ -34,8 +34,8 @@ private:
         return ans;
     }
 
-public:
-    vector<int> searchRange(vector<int>& nums, int target) {
+  public:
+    vector<int> searchRange(vector<int> &nums, int target) {
         vector<int> ans;
         int first = firstOccurrance(nums, target);
         int last = lastOccurrance(nums, target);

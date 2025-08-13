@@ -1,6 +1,6 @@
 class Solution {
-public:
-    bool containsDuplicate(vector<int>& nums) {
+  public:
+    bool containsDuplicate(vector<int> &nums) {
         unordered_map<int, int> count;
         int n = nums.size();
         for (int i = 0; i < n; i++) {

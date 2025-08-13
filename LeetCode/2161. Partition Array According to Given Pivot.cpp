@@ -1,6 +1,6 @@
 class Solution {
-public:
-    vector<int> pivotArray(vector<int>& nums, int pivot) {
+  public:
+    vector<int> pivotArray(vector<int> &nums, int pivot) {
         vector<int> ans;
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] < pivot)

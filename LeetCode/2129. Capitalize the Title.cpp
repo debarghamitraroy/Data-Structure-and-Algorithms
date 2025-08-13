@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     string capitalizeTitle(string title) {
         int n = title.length();
         transform(title.begin(), title.end(), title.begin(), ::tolower);

@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int findComplement(int num) {
         int temp = num, mask = 0;
         if (num == 0)

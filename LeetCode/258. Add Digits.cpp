@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int addDigits(int num) {
         int count = 0;
         while (num != 0) {

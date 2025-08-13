@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     vector<long long int> sumOfThree(long long int num) {
         vector<long long int> temp;
         long long int mid = num / 3;

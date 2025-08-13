@@ -1,5 +1,5 @@
 class Solution {
-private:
+  private:
     int sum_digits(int n) {
         int sum = 0;
         while (n) {
@@ -17,7 +17,7 @@ private:
         return product;
     }
 
-public:
+  public:
     bool checkDivisibility(int n) {
         int sum = sum_digits(n);
         int product = product_digits(n);

@@ -1,6 +1,7 @@
 class Solution {
-public:
-    vector<vector<int>> mergeSimilarItems(vector<vector<int>>& items1, vector<vector<int>>& items2) {
+  public:
+    vector<vector<int>> mergeSimilarItems(vector<vector<int>> &items1,
+                                          vector<vector<int>> &items2) {
         map<int, int> items;
         for (auto it : items1) {
             items[it[0]] = items[it[0]] + it[1];

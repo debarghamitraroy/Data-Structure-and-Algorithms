@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     string makeFancyString(string s) {
         int n = s.size();
         if (n < 3)

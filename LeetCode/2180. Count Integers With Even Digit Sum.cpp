@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int countEven(int num) {
         int count = 0, n = num, sum = 0;
         while (n > 0) {

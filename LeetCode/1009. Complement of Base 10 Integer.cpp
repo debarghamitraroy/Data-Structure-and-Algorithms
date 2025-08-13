@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int bitwiseComplement(int n) {
         int temp = n, mask = 0;
         if (n == 0)

@@ -1,6 +1,6 @@
 class Solution {
-public:
-    int peakIndexInMountainArray(vector<int>& arr) {
+  public:
+    int peakIndexInMountainArray(vector<int> &arr) {
         int size = arr.size(), left = 0, right = size - 1;
         while (left < right) {
             int mid = left + ((right - left) / 2);

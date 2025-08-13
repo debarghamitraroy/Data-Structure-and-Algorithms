@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int numberOfSteps(int num) {
         int count = 0, temp = num;
         if (temp <= 1)

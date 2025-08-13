@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int hammingWeight(int n) {
         int count = 0;
         while (n) {

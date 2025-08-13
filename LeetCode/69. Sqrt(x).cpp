@@ -1,5 +1,5 @@
 class Solution {
-public:
+  public:
     int mySqrt(long long int x) {
         long long int start = 0, end = x, ans = 0;
         while (start <= end) {

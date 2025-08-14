@@ -3,11 +3,9 @@ class Solution {
     bool isPowerOfTwo(int n) {
         if (n <= 0)
             return false;
-        if (n > 0) {
-            n = n & (n - 1);
-            if (n == 0)
-                return true;
-        }
-        return false;
+        return n &= (n - 1); // Brian Kernighan's Algorithm
     }
 };
+
+// Time Complexity: O(1)
+// Space Complexity: O(1)
